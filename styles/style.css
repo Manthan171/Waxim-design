@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #2b2b2b;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    -webkit-font-smoothing: antialiased;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar{
+    background: transparent;
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+
+.navbar-logo{
+    position: absolute;
+    left: 44%;
+}
+
+.navbar-main{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    padding: 6.5px 24px;
+    margin-left: 0.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.nav-link-mid{
+    margin-left: auto;
+}
+
+.navbar-icon {
+    padding-right: 35px;
+    font-size: 25px;
+    color: #fff;
+}
