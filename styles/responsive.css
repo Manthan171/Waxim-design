@@ -22,6 +22,13 @@
     }
 }
 
+@media only screen and (min-width: 350px) and (max-width: 575px){
+    .container{
+        max-width: 360px;
+        padding: 0;
+    }
+}
+
 @media only screen and (max-width: 992px){
     .navbar-main{
         display: none;
@@ -52,6 +59,10 @@
         padding: 72px 0 !important;
         max-width: 540px;
         text-align: center;
+    }
+
+    .services-row{
+        flex-direction: column;
     }
 }
 
