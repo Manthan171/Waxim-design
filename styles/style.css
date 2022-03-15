@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+/* Font faces */
+
+@font-face{
+    font-family: "Roboto";
+    src: url(../font/Roboto-Light.ttf);
+}
+
+/* Font faces over*/
+
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -11,7 +21,6 @@ body{
     line-height: 26px;
     letter-spacing: 0.5px;
     -webkit-font-smoothing: antialiased;
-    background-color: black;
 }
 
 a{
@@ -30,6 +39,9 @@ a{
     display: flex;
     height: 90px;
     align-items: center;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
 }
 
 .navbar-logo{
@@ -59,4 +71,144 @@ a{
     padding-right: 35px;
     font-size: 25px;
     color: #fff;
+}
+
+/* Home Page */
+
+.background-img{
+    background-image: url(http://www.themesindustry.com/html/wexim-2020/images/bg-img5.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    height: 100vh;
+}
+
+.home-page{
+    position: relative;
+}
+
+.bg-color{
+    background-color: #1d1d21 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.home-page-content{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.classic-box{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes plus_effect{
+    0% {
+        box-shadow: 0 0 0 5px rgb(255 255 255 / 90%);
+    }
+
+    25% {
+        box-shadow: 0 0 0 10px rgb(255 255 255 / 60%);
+    }
+
+    70%{
+        box-shadow: 0 0 0 15px rgb(255 255 255 / 30%);
+    }
+
+    100%{
+        box-shadow: 0 0 0 20px rgb(255 255 255 / 10%);
+    }
+}
+
+.button-play{
+    height: 70px;
+    width: 70px;
+    margin: 15px 10px 20px 10px;
+    padding-left: 5px;
+    line-height: 73px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0 0 0 0 rgb(255 255 255);
+    animation: pulse_effect 1s infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: plus_effect;
+}
+
+.button-play:hover{
+    background-color: #fff;
+    color: #00bcd4;
+}
+
+.classic-box h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 22px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.classic-box p{
+    color: #fff!important;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.homepage-btn{
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    border: 2px solid #fff;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    border-radius: 0;
+    margin: 24px 0px 0 0;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.homepage-btn-primary{
+    background: #00bcd4;
+    background-color: #00bcd4;
+    border: 2px solid transparent;
+    margin-right: 10px;
+}
+
+.homepage-btn-primary:hover{
+    background: transparent;
+    border: 2px solid #00bcd4;
+    color: #00bcd4;
+}
+
+.homepage-btn:hover{
+    background: #fff;
+    color: #00bcd4;
+}
+
+.classic-box div{
+    display: flex;
+    justify-content: space-between;
 }
