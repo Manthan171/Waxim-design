@@ -139,7 +139,6 @@ a{
     height: 70px;
     width: 70px;
     margin: 15px 10px 20px 10px;
-    padding-left: 5px;
     line-height: 73px;
     color: #fff;
     display: inline-block;
@@ -158,6 +157,10 @@ a{
     animation-fill-mode: none;
     animation-play-state: running;
     animation-name: plus_effect;
+}
+
+.button-play i{
+    margin-left: 5px;
 }
 
 .button-play:hover{
