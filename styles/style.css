@@ -412,4 +412,75 @@ a{
 .service p{
     color: #6d6d6d;
 }
+
 /* Service Section Over */
+
+/* Parallax Img Section */
+
+.parallax-img{
+    background-image: url(http://www.themesindustry.com/html/wexim-2020/images/bg-img6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 53.73px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 120px 0;
+}
+
+.service-data-main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d21 !important;
+    opacity: 0.4;
+}
+
+.service-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.service-data h6{
+    color: #fff!important;
+    font-weight: 300!important;
+    margin-bottom: 24px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.service-data h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.service-data button{
+    padding: 9px 34px;
+    background: #00bcd4;
+    font-size: 14px;
+    line-height: 25px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    color: #fff;
+}
+
+.service-data button:hover{
+    background: transparent;
+    color: #00bcd4;
+    border-color: #00bcd4;
+}
+/* Parallax Img Section Over */
