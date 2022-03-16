@@ -27,6 +27,26 @@
         max-width: 360px;
         padding: 0;
     }
+
+    .team-member{
+        flex-direction: column;
+        height: auto !important;
+        width: 100%;
+    }
+
+    .team-img{
+        order: 1;
+        width: 100%;
+    }
+
+    .team-info-main{
+        order: 2;
+        width: 100%;
+    }
+
+    .team-member-info{
+        padding: 40px 25px;
+    }
 }
 
 @media only screen and (max-width: 992px){
@@ -63,6 +83,15 @@
 
     .services-row{
         flex-direction: column;
+    }
+
+    .team-details-second{
+        display: none;
+    }
+
+    .team-member{
+        max-width: 600px;
+        margin: 0 auto;
     }
 }
 
