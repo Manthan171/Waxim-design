@@ -110,6 +110,14 @@
         max-width: 600px;
         margin: 0 auto;
     }
+
+    .reviews-row{
+        flex-direction: column;
+    }
+
+    .facts{
+        height: 260px;
+    }
 }
 
 @media only screen and (max-width: 316px){
