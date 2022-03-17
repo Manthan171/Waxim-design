@@ -617,3 +617,211 @@ a{
     visibility: visible;
 } */
 /* Team section start over */
+
+/* Pricing Section */
+
+.pricing-section{
+    padding: 120px 0;
+    text-align: center;
+}
+
+.pricing-header-main{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-header{
+    margin-bottom: 48px;
+}
+
+.pricing-header h6{
+    margin-bottom: 16px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.pricing-header h2{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 500;
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+}
+
+.pricing-header p{
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.pricing-main{
+    padding: 0 15px;
+    width: 100%;
+    max-width: 50%;
+}
+
+.pricing-content{
+    padding: 64px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    text-align: left;
+    transition: 0.3s all ease-in-out;
+}
+
+.pricing-content h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400 !important;
+    margin-bottom: 16px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 1.75rem;
+}
+
+.pricing-tag{
+    padding-top: 20px;
+}
+
+.pricing-tag .price{
+    font-size: 3rem;
+    display: inline-block;
+    font-weight: 300;
+    color: #00bcd4;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    transition: 0.3s all ease-in-out;
+}
+
+.pricing-tag .price-2{
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing-tag .price span{
+    font-size: 1.2rem;
+    vertical-align: super;
+    font-weight: 300;
+}
+
+.month{
+    vertical-align: text-bottom;
+}
+
+ul.pricing-packege{
+    padding: 20px 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul.pricing-packege li{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+    list-style-type: none;
+    color: #232323;
+    transition: 0.3s all ease-in-out;
+}
+
+ul.pricing-packege li i{
+    display: inline-block;
+    width: 24px;
+    padding-right: 5px;
+}
+
+ul.pricing-packege li .fa-check{
+    color: #63be11;
+    transition: 0.3s all ease-in-out;
+}
+
+ul.pricing-packege li .fa-times{
+    color: #e04645;
+    transition: 0.3s all ease-in-out;
+}
+
+.pricing-content a{
+    cursor: pointer;
+    background: #00bcd4;
+    background-color: #00bcd4;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    display: inline-block;
+    border: 2px solid transparent;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    text-transform: capitalize;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: 0.3s all ease-in-out;
+}
+
+.pricing-btn{
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%) !important;
+}
+
+.pricing-row{
+    display: flex;
+}
+
+.first-pricing:hover {
+    background: #00bcd4;
+    color: #fff;
+}
+
+.second-pricing:hover{
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    color: #fff;
+}
+
+.pricing-content:hover .pricing-tag .price{
+    background: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing-content:hover ul.pricing-packege li .fa-check{
+    color: #fff;
+}
+
+.pricing-content:hover ul.pricing-packege li .fa-times{
+    color: #fff;
+}
+
+.pricing-content:hover ul.pricing-packege li{
+    color: #fff;
+}
+
+.pricing-content:hover a{
+    background: #fff;
+    background-color: #fff;
+    color: #00bcd4;
+}
+
+.pricing-content:hover .pricing-btn{
+    background: #fff;
+    color: #585858;
+}
+
+.pricing-content a:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.pricing-content .pricing-btn:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* Pricing Section Over */

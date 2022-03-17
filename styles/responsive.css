@@ -71,6 +71,19 @@
     .about-main{
         flex-direction: column;
     }
+
+    .pricing-row{
+        flex-direction: column;
+    }
+
+    .pricing-main{
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .pricing-content{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 768px){
