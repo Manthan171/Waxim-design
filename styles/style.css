@@ -1034,3 +1034,79 @@ ul.pricing-packege li .fa-times{
     flex: 0 0 33.33%;
 }
 /* Mobile design section over */
+
+/* blog section start */
+
+.blog-section{
+    background-color: #f8f9fa!important;
+}
+
+.blog-row{
+    display: flex;
+    align-items: center;
+}
+
+.blog-data-wrapper{
+    max-width: 50%;
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.blog-data{
+    padding: 0 15px;
+}
+
+.blog-img{
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.blog-img img{
+    width: 100%;
+}
+
+.blog-data h6{
+    color: #00bcd4;
+    margin-bottom: 16px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.blog-data h2{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blog-data p{
+    max-width: 720px;
+    margin-top: 24px;
+    margin: 0 auto;
+}
+
+.blog-data a{
+    cursor: pointer;
+    color: #fff;
+    flex: 1 1 auto;
+    background-size: 200% auto;  
+    background-image: linear-gradient(to right, #3264f5 0%, #7202bb 51%, #3264f5 100%);
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    border: 2px solid transparent;
+    text-transform: capitalize;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: 0.3s all ease-in-out;
+}
+
+.blog-data a:hover{
+    background-image: linear-gradient(to left, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+}
+
+/* blog section over */

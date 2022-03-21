@@ -69,6 +69,22 @@
     .mobile-img-2{
         left: 23px !important;
     }
+
+    .blog-row{
+        flex-direction: column;
+    }
+
+    .blog-data-wrapper{
+        max-width: 100%;
+    }
+
+    .blog-img{
+        max-width: 100%;
+    }
+
+    .blog-data{
+        padding: 120px 15px;
+    }
 }
 
 @media only screen and (max-width: 768px){
