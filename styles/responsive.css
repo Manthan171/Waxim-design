@@ -30,27 +30,7 @@
 
 }
 
-@media only screen and (max-width: 576px){
-    .team-member{
-        flex-direction: column;
-        height: auto !important;
-        width: 100%;
-    }
 
-    .team-img{
-        order: 1;
-        width: 100%;
-    }
-
-    .team-info-main{
-        order: 2;
-        width: 100%;
-    }
-
-    .team-member-info{
-        padding: 40px 25px;
-    }
-}
 
 @media only screen and (max-width: 992px){
     .navbar-main{
@@ -85,6 +65,10 @@
     .pricing-content{
         text-align: center;
     }
+
+    .mobile-img-2{
+        left: 23px !important;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -118,16 +102,66 @@
     .facts{
         height: 260px;
     }
-}
 
-@media only screen and (max-width: 316px){
-    .classic-box div{
+    .mobile-design{
         flex-direction: column;
+    }
+
+    .mobile-features{
+        max-width: 100%;
+    }
+
+    .mobile-img{
+        max-width: 100%;
+    }
+
+    .mobile-img-2{
+        left: 154px !important;
     }
 }
 
 @media only screen and (max-width: 1200px){
     .about-info{
         padding: 0 20px;
+    }
+
+    .mobile-img-2{
+        left: 42px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .team-member{
+        flex-direction: column;
+        height: auto !important;
+        width: 100%;
+    }
+
+    .team-img{
+        order: 1;
+        width: 100%;
+    }
+
+    .team-info-main{
+        order: 2;
+        width: 100%;
+    }
+
+    .team-member-info{
+        padding: 40px 25px;
+    }
+
+    .mobile-img-2{
+        left: 62px !important;
+    }
+}
+
+@media only screen and (max-width: 316px){
+    .classic-box div{
+        flex-direction: column;
+    }
+
+    .mobile-img-2{
+        left: 33px !important;
     }
 }

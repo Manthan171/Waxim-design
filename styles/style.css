@@ -971,4 +971,66 @@ ul.pricing-packege li .fa-times{
     display: flex;
     justify-content: center;
 }
+
+.mobile-design{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mobile-img img{
+    max-width: 280px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.mobile-img{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.mobile-img-2 img{
+    width: 100%;
+}
+
+.mobile-img-2{
+    position: absolute;
+    width: 235px;
+    height: 420px;
+    top: 69px;
+    left: 74px;
+}
+
+.app-feature{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.app-feature i{
+    font-size: 38px;
+    margin-bottom: 24px;
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s all ease-in-out;
+}
+
+.app-feature h4{
+    margin-bottom: 16px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.mobile-features{
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
 /* Mobile design section over */
