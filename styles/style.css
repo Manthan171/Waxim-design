@@ -1084,7 +1084,7 @@ ul.pricing-packege li .fa-times{
 
 .blog-data p{
     max-width: 720px;
-    margin-top: 24px;
+    margin-bottom: 24px !important;
     margin: 0 auto;
 }
 
