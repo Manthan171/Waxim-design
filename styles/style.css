@@ -1110,3 +1110,130 @@ ul.pricing-packege li .fa-times{
 }
 
 /* blog section over */
+
+.contact-row{
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-wrapper{
+    background-image: linear-gradient(to right, rgba(50, 100, 245, 0.8) 2%,rgba(114, 2, 187, 0.8) 82%),url(http://www.themesindustry.com/html/wexim-2020/images/address-image.jpg);
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-social{
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.contact-social ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.contact-social ul li a{
+    color: #fff;
+}
+
+.contact-info h6{
+    margin-bottom: 16px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-info h2{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-info p{
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.contact-info{
+    padding: 120px 0;
+}
+
+.form-group{
+    margin-bottom: 24px;
+    padding: 0 15px;
+}
+
+.input{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 12px 0;
+    background: #fff;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    border-radius: 0;
+    box-shadow: none;
+    height: 44px;
+    color: #a5a5a5;
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.5;
+    display: block;
+    outline: none;
+}
+
+.contact-form{
+    max-width: 750px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-form textarea{
+    min-height: 175px;
+    resize: none;
+}
+
+.message-input{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.form-submit{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.form-submit-btn{
+    cursor: pointer;
+    color: #fff;
+    flex: 1 1 auto;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #3264f5 0%, #7202bb 51%, #3264f5 100%);
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    display: inline-block;
+    border: 2px solid transparent;
+    letter-spacing: 0.5px;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
