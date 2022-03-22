@@ -84,6 +84,44 @@
     .pricing-content{
         text-align: center;
     }
+
+    .portfolio-row{
+        flex-direction: column;
+    }
+
+    .portfolio-first{
+        width: 100% !important;
+        margin-top: 24px;
+        order: 2;
+    }
+
+    .portfolio-second{
+        width: 100% !important;
+        margin-bottom: 0;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-overflow{
+        width: auto;
+    }
+
+    .first-img-wrapper{
+        order: 1;
+    }
+
+    .portfolio-info{
+        order: 2;
+    }
+
+    .second-img-wrapper{
+        order: 3;
+    }
+
+    .first-img img{
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -109,6 +147,7 @@
         max-width: 600px;
         margin: 0 auto;
     }
+
 }
 
 @media only screen and (max-width: 316px){
