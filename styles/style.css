@@ -528,6 +528,8 @@ a{
 .team-img{
     width: 50%;
     height: 100%;
+    position: relative;
+    z-index: 5;
 }
 
 .team-img img{
@@ -541,6 +543,7 @@ a{
     height: 100%;
     position: relative;
     background: transparent;
+    z-index: 5;
 }
 .team-member-info{
     padding: 25px;
@@ -581,31 +584,67 @@ a{
     margin-right: 1px;
     color: #9a9a9a;
     border: 1px solid transparent;
+    transition: 0.4s all ease-in-out;
 }
 
 .team-details-wrapper{
     display: flex;
 }
 
-/* .team-img::after{
+.after-1::after{
     content: "";
     position: absolute;
-    top: 0;
-    right: -50%;
     width: 50%;
     height: 100%;
+    top: 0;
+    left: 0;
     background: linear-gradient(to right, #3264f5 0%, #7202bb 51%, #3264f5 100%);
-    opacity: 0;
-    transition: 0.5s all ease-in-out;
-    visibility: visible;
-    z-index: -1;
+    transition: 0.3s all ease-in-out;
+    z-index: 3;
 }
 
-.team-member:hover .team-img::after{
-    right: 50%;
-    opacity: 1;
-    visibility: visible;
-} */
+.after-2::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to right, #3264f5 0%, #7202bb 51%, #3264f5 100%);
+    transition: 0.3s all ease-in-out;
+    z-index: 3;
+}
+
+.after-1:hover.after-1::after{
+    width: 100%;
+}
+
+.after-2:hover.after-2::after{
+    width: 100%;
+}
+
+.team-member:hover{
+    color: #fff;
+}
+
+.team-member:hover .team-member-info span{
+    -webkit-text-fill-color: #fff;
+}
+
+.team-member:hover .team-social a{
+    color: #fff;
+}
+
+.team-social a:hover{
+    background-color: #fff;
+}
+
+.team-social a:hover i{
+    background: linear-gradient(to right, #3264f5 0%, #7202bb 51%, #3264f5 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 /* Team section start over */
 
 /* Pricing Section */
