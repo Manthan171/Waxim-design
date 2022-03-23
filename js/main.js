@@ -9,3 +9,12 @@ function scrollToTop(){
 }
 
 scrollToTopBtn.addEventListener("click", scrollToTop);
+
+window.onscroll = () => {
+    const nav = document.getElementById('navbar');
+    if(this.scrollY <= 300){
+        nav.className = 'navbar';
+    }else{
+        nav.className = 'nav-scroll';
+    }
+}
