@@ -1420,6 +1420,10 @@ ul.pricing-packege li .fa-times{
     font-weight: 500;
 }
 
+.form-submit-btn:hover{
+    background-image: linear-gradient(to left, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+}
+
 /* footer section Start */
 
 .footer-section{
