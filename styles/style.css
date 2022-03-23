@@ -1199,6 +1199,11 @@ ul.pricing-packege li .fa-times{
     transition: 0.3s all ease-in-out;
 }
 
+
+.app-feature:hover i{
+    transform: translateY(-10px);
+}
+
 .app-feature h4{
     margin-bottom: 16px;
     line-height: 1;
