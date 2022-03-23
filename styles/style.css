@@ -764,6 +764,9 @@ a{
     font-weight: 500;
 }
 
+.work-btn a:hover{
+    background-image: linear-gradient(to left, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+}
 .company-info{
     text-align: center;
     padding: 48px 0;
