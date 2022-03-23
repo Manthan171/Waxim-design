@@ -931,7 +931,6 @@ ul.pricing-packege li .fa-times{
 
 .pricing-content a{
     cursor: pointer;
-    background: #00bcd4;
     background-color: #00bcd4;
     color: #ffffff;
     font-size: 14px;
@@ -949,7 +948,7 @@ ul.pricing-packege li .fa-times{
 }
 
 .pricing-btn{
-    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%) !important;
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%) ;
 }
 
 .pricing-row{
