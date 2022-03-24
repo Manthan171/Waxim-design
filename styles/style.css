@@ -718,6 +718,94 @@ a{
     width: 100%;
 }
 
+.first-img{
+    position: relative;
+    transition: 0.5s all ease-in-out;
+}
+
+.first-img::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 92%;
+    height: 92%;
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.first-img:hover.first-img::after{
+    visibility: visible;
+    opacity: 0.7;
+}
+
+.first-img .img-overlay{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+    z-index: 99;
+}
+
+.first-img:hover .img-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+.img-overlay h4{
+    padding-top: 16px;
+    color: #fff;
+    line-height: 1;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 55px;
+}
+
+.img-overlay p{
+    color: #fff;
+    position: relative;
+    top: 54px;
+}
+
+.plus{
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.plus::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    margin-left: -1px;
+    left: 50%;
+    top: 5px;
+    bottom: 5px;
+    background: #fff;
+}
+
+.plus::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    margin-top: -1px;
+    top: 50%;
+    left: 40px;
+    right: 5px;
+    background: #fff;
+}
+
 .first-img img{
     border: 20px solid #fff;
     width: 92%;
