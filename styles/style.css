@@ -1052,7 +1052,7 @@ ul.pricing-packege li .fa-times{
     padding: 9px 34px;
     line-height: 25px;
     display: inline-block;
-    border: 2px solid transparent;
+    border: 2px solid;
     letter-spacing: 0.5px;
     border-radius: 0;
     text-transform: capitalize;
@@ -1108,6 +1108,7 @@ ul.pricing-packege li .fa-times{
 .pricing-content:hover .pricing-btn{
     background: #fff;
     color: #585858;
+    border-color: #fff;
 }
 
 .pricing-content a:hover{
