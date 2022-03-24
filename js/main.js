@@ -1,5 +1,12 @@
 let scrollToTopBtn = document.getElementById("top-scroll");
+let myScroll = document.querySelector("#top-scroll");
 let rootElement = document.documentElement;
+
+if(this.scrollY <= 500){
+    myScroll.style.display = "none";
+}else{
+    myScroll.style.display = "block";
+}
 
 function scrollToTop(){
     rootElement.scrollTo({
