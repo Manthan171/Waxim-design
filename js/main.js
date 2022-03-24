@@ -1,3 +1,10 @@
+function openNav() {
+    document.getElementById("mySidenav").style.width = "40%";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
 let scrollToTopBtn = document.getElementById("top-scroll");
 let myScroll = document.querySelector("#top-scroll");
 let rootElement = document.documentElement;
