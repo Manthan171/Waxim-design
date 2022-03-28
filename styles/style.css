@@ -12,7 +12,7 @@
 
 @font-face{
     font-family: "Poppins";
-    src: url(../font/Poppins-Regular.ttf);
+    src: url(../font/Poppins-Regular.otf);
 }
 
 /* Font faces over*/
@@ -125,6 +125,7 @@ a{
     background-size: cover;
     background-position: center 0px;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .home-page{
@@ -302,10 +303,12 @@ a{
 
 .about-img{
     flex: 0 0 50%;
+    height: 955px;
 }
 
 .about-img img{
     max-width: 100%;
+    height: 100%;
 }
 
 .about-info{
@@ -332,13 +335,14 @@ a{
 .about-title h2{
     font-size: 3rem;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
 .about-title p{
     margin: 0 auto;
+    color: #6d6d6d;
 }
 
 .progress-item{
@@ -367,8 +371,8 @@ a{
     cursor: pointer;
     color: #2b2b2b;
     font-size: 14px;
-    padding: 9px 34px;
-    margin-top: 48px;
+    padding: 7px 40px;
+    margin-top: 28px;
     line-height: 25px;
     width: auto;
     transition: 0.3s all ease-in-out;
@@ -408,7 +412,7 @@ a{
 .service-info h2{
     font-size: 3rem;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: bold;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 16px;
     background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
@@ -491,7 +495,7 @@ a{
 .service-data h2{
     font-size: 2.5rem;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: bold;
     color: #fff;
     margin-bottom: 24px;
     font-family: 'Poppins', sans-serif;
@@ -506,6 +510,7 @@ a{
     cursor: pointer;
     border: 2px solid transparent;
     color: #fff;
+    font-weight: bolder;
 }
 
 .service-data button:hover{
@@ -576,6 +581,7 @@ a{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
 }
 
 .team-info-main{
@@ -627,6 +633,22 @@ a{
     transition: 0.4s all ease-in-out;
 }
 
+.team-social a:hover .fa-facebook{
+    color: #4267B2 !important;
+}
+
+.team-social a:hover .fa-twitter{
+    color: #1da1f2 !important;
+}
+
+.team-social a:hover .fa-instagram{
+    color: #e1306c !important;
+}
+
+.team-social a:hover .fa-pinterest{
+    color: #e1306c !important;
+}
+
 .team-details-wrapper{
     display: flex;
 }
@@ -671,6 +693,10 @@ a{
     -webkit-text-fill-color: #fff;
 }
 
+/* .team-member:hover .team-img img{
+    transform: scale(1.1);
+} */
+
 .team-member:hover .team-social a{
     color: #fff;
 }
@@ -679,12 +705,12 @@ a{
     background-color: #fff;
 }
 
-.team-social a:hover i{
+/* .team-social a:hover i{
     background: linear-gradient(to right, #3264f5 0%, #7202bb 51%, #3264f5 100%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-}
+} */
 /* Team section start over */
 
 /* Portfolio Section Start */
@@ -744,7 +770,7 @@ a{
 
 .first-img .img-overlay{
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 35%;
     text-align: center;
     visibility: hidden;
@@ -767,13 +793,13 @@ a{
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    top: 55px;
+    top: 80px;
 }
 
 .img-overlay p{
     color: #fff;
     position: relative;
-    top: 54px;
+    top: 82px;
 }
 
 .plus{
@@ -798,10 +824,10 @@ a{
     content: "";
     position: absolute;
     height: 2px;
-    width: 50%;
+    width: 47%;
     margin-top: -1px;
     top: 50%;
-    left: 40px;
+    left: 41px;
     right: 5px;
     background: #fff;
 }
@@ -896,10 +922,11 @@ a{
 .company-info h2{
     font-size: 3rem;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: 600;
     background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
     background-clip: text;
     -webkit-background-clip: text;
+    font-family: 'Poppins', sans-serif;
     -webkit-text-fill-color: transparent;
     margin-bottom: 16px;
 }
@@ -907,6 +934,7 @@ a{
 .company-info p{
     max-width: 720px;
     margin: 0 auto;
+    color: #6d6d6d;
 }
 .img-overflow{
     width: 540px;
@@ -944,17 +972,19 @@ a{
 .pricing-header h2{
     font-size: 3rem;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: 600;
     background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 16px;
 }
 
 .pricing-header p{
     max-width: 720px;
     margin: 0 auto;
+    color: #6d6d6d;
 }
 
 .pricing-main{
@@ -1044,7 +1074,24 @@ ul.pricing-packege li .fa-times{
     transition: 0.3s all ease-in-out;
 }
 
-.pricing-content a{
+.pricing-content .pricing-btn{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 9px 34px;
+    line-height: 25px;
+    display: inline-block;
+    border: 2px solid;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    text-transform: capitalize;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: 0.3s all ease-in-out;
+}
+
+.pricing-content .pricing-btn1{
     cursor: pointer;
     background-color: #00bcd4;
     color: #ffffff;
@@ -1081,6 +1128,10 @@ ul.pricing-packege li .fa-times{
 }
 
 .pricing-content:hover .pricing-tag .price{
+    color: #FFF;
+}
+
+.pricing-content:hover .pricing-tag .price-2{
     background: #fff;
     background-clip: text;
     -webkit-background-clip: text;
@@ -1151,6 +1202,7 @@ ul.pricing-packege li .fa-times{
 
 .testimonial p{
     margin-bottom: 1.5rem;
+    color: #6d6d6d;
 }
 
 .testimonial-img{
@@ -1167,7 +1219,7 @@ ul.pricing-packege li .fa-times{
 
 .testimonial h5{
     color: #00bcd4;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1;
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
@@ -1197,6 +1249,14 @@ ul.pricing-packege li .fa-times{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.facts-1{
+    width: 30%;
+}
+
+.facts2{
+    width: 35%;
 }
 
 .facts-row{
@@ -1242,11 +1302,12 @@ ul.pricing-packege li .fa-times{
 .mobile-info h2{
     font-size: 3rem;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: 600;
     background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 16px;
 }
 
@@ -1301,6 +1362,11 @@ ul.pricing-packege li .fa-times{
 .app-feature{
     text-align: center;
     margin-bottom: 48px;
+}
+
+.app-feature p{
+    max-width: 328px;
+    margin: 0 auto;
 }
 
 .app-feature i{
