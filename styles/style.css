@@ -1469,7 +1469,7 @@ ul.pricing-packege li .fa-times{
     background-size: 200% auto;  
     background-image: linear-gradient(to right, #3264f5 0%, #7202bb 51%, #3264f5 100%);
     font-size: 14px;
-    padding: 9px 34px;
+    padding: 9px 70px;
     line-height: 25px;
     border: 2px solid transparent;
     text-transform: capitalize;
@@ -1478,6 +1478,7 @@ ul.pricing-packege li .fa-times{
     font-weight: 500;
     transition: 0.3s all ease-in-out;
     position: relative;
+    width: 100px;
 }
 
 .blog-data a::before{
@@ -1488,10 +1489,16 @@ ul.pricing-packege li .fa-times{
     left: 0;
     background-image: linear-gradient(to left, #7202bb 0%, #3264f5 51%, #7202bb 100%);
     bottom: 0;
-    opacity: 0
-    ;
+    opacity: 0;
     background-size: 200% auto;  
     transition: 0.3s all ease-in-out;
+}
+
+.blog-data a span{
+    position: absolute;
+    width: 100px;
+    z-index: 3;
+    left: 18px;
 }
 
 .blog-data a:hover::before{
@@ -1646,7 +1653,7 @@ ul.pricing-packege li .fa-times{
     background-size: 200% auto;
     background-image: linear-gradient(to right, #3264f5 0%, #7202bb 51%, #3264f5 100%);
     font-size: 14px;
-    padding: 9px 34px;
+    padding: 20px 70px;
     line-height: 25px;
     display: inline-block;
     border: 2px solid transparent;
@@ -1654,10 +1661,31 @@ ul.pricing-packege li .fa-times{
     width: auto;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    position: relative;
 }
 
-.form-submit-btn:hover{
+.form-submit-btn::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
     background-image: linear-gradient(to left, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+    bottom: 0;
+    opacity: 0;
+    background-size: 200% auto;
+    transition: 0.3s all ease-in-out;
+}
+
+.form-submit-btn:hover::before{
+    opacity: 1;
+}
+
+.form-submit-btn span{
+    position: absolute;
+    width: 100px;
+    left: 19px;
+    top: 8px;
 }
 
 /* footer section Start */
