@@ -37,9 +37,8 @@
         display: none;
     }
 
-    .navbar-logo{
-        left: 10%;
-        top: 25px;
+    .navbar-logo1{
+        display: block !important;
     }
 
     .about-info{
@@ -131,7 +130,7 @@
     }
 
     .about-info{
-        padding: 72px 0 !important;
+        padding: 72px 15px !important;
         max-width: 540px;
         text-align: center;
     }
@@ -155,6 +154,14 @@
 
     .facts{
         height: 260px;
+    }
+
+    .facts-1{
+        width: auto;
+    }
+
+    .facts2{
+        width: auto;
     }
 
     .mobile-design{
@@ -184,6 +191,10 @@
     }
 
     .contact-form-main{
+        padding: 72px 0;
+    }
+
+    .service-section{
         padding: 72px 0;
     }
 }
@@ -233,6 +244,36 @@
         height: 35px;
         line-height: 35px;
         font-size: 15px;
+    }
+
+    .after-1::after{
+        height: 50%;
+        width: 100%;
+    }
+
+    .after-2::after{
+        height: 50%;
+        width: 100%;
+    }
+
+    .team-member:hover.after-1::after{
+        height: 100%;
+    }
+
+    .team-member:hover.after-2::after{
+        height: 100%;
+    }
+
+    .classic-box {
+        padding: 0 15px;
+    }
+
+    .about-title h2{
+        font-size: 2.2rem;
+    }
+
+    .portfolio-info .data h2{
+        font-size: 4rem;
     }
 }
 
