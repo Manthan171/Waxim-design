@@ -26,6 +26,7 @@ window.onscroll = () => {
     }else{
         nav.className = 'nav-scroll';
     }
+     
     if(this.scrollY <= 500){
         myScroll.style.display = "none";
     }else{
